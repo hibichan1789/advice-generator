@@ -7,7 +7,7 @@ fetchで外部APIの連携をとる
 外部APIの型をtypescriptの型で正しく定義して、型安全な連携をとれるようにする  
 
 ## 変更点、修正点
-main.tsに外部API（Advice Slip JSON API）を叩いてJSONを受け取る機能の実装      
+style.cssを実装してUIの改善をした      
 
 ## 今回学んだこと
 typescriptで環境変数を使うと安全にできる  
@@ -19,3 +19,4 @@ const apiUrl = import.meta.env.VITE_API_URL;
 clickされた瞬間にボタンを使えなくして連続で押されるのを防ぐことが大切  
 ## 所感
 typescriptの最初の環境構築のコマンドがスムーズにできた  
+HTML、CSSのスピードがめっちゃ上がった気がする
